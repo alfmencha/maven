@@ -24,6 +24,16 @@
   </dependencies>
 
     <build>
+      
+      <profiles>
+  <profile>
+    <activation>
+      <os>
+        <family>Windows</family>
+      </os>
+    </activation>
+  </profile>
+</profiles>
         <plugins>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
