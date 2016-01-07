@@ -26,14 +26,16 @@
     <build>
       
       <profiles>
-  <profile>
-    <activation>
-      <os>
-        <family>Windows</family>
-      </os>
-    </activation>
-  </profile>
+   <profile>
+     <id> prof-wind </id>
+     <activation>
+	 <os>
+		<family>windows</family>
+	 </os>
+     </activation>
+      </profile>
 </profiles>
+
         <plugins>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
