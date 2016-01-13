@@ -35,7 +35,9 @@
      </activation>
       </profile>
 </profiles>
-
+	 </build>
+	 
+	 <build> 
         <plugins>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
